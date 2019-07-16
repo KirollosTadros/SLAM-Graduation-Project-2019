@@ -1,4 +1,8 @@
-# SLAM-Graduation-Project  
+# SLAM-Graduation-Project-2019  
+
+## Ain Shams university - Faculty of Engineering  
+
+## ROS packages source:  
 ### rplidar ROS WIKI : http://wiki.ros.org/rplidar  
 ### rplidar repository source: https://github.com/robopeak/rplidar_ros
 ### hector slam ROS WIKI : http://wiki.ros.org/hector_slam  
@@ -6,19 +10,14 @@
   
   
   
-Simultaneous localization and mapping using RPLIDAR connected to raspbeery pi with ROS  
+Simultaneous localization and mapping using RPLIDAR connected to raspberry pi 3 Model B+
   
   
 ## Steps to run it:  
-1. Clone this repository in the src directory of the Catkin Workspace  
-2. Build your workspace using catkin_make (Better using -j2 and enabling swap)  
+1. Add rplidar and hector_slam folders to the src directory of the catkin workspace  
+2. Build your workspace  
 3. Run roslaunch rplidar_ros rplidar.launch  
 4. Run roslaunch hector_slam_launch tutorial.launch  
+5.Use any of the python codes to control the RC car using the keyboard or let the the robot move using the ultrasonic  
   
-  
-The Map should start build on Rviz on your screen  
-  
-  
-  
-## How to enable swap in ubuntu 16.04:  
-https://www.digitalocean.com/community/tutorials/how-to-add-swap-space-on-ubuntu-16-04
+
