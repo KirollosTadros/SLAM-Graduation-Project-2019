@@ -99,7 +99,7 @@ while True:
             car.Motor_A_Forward(100)
             car.Motor_B_Backward(100)
 
-            time.sleep(0.9)
+            time.sleep(0.7)
 
 
 
