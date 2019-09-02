@@ -18,6 +18,9 @@ Simultaneous localization and mapping using RPLIDAR connected to raspberry pi 3 
 2. Build your workspace  
 3. Run roslaunch rplidar_ros rplidar.launch  
 4. Run roslaunch hector_slam_launch tutorial.launch  
-5.Use any of the python codes to control the RC car using the keyboard or let the the robot move using the ultrasonic  
+5. Use any of the python codes to control the RC car using the keyboard or let the the robot move using the ultrasonic  
+
+## Project Output Youtube Playlist  
+https://www.youtube.com/playlist?list=PLKljhNQ9VhKM0pHbLW8RNGXEVnmRC0lKY
   
 
